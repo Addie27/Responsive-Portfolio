@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background: url(../images/fresh_snow.png);
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff; 
+    height: 92px; 
+    border-bottom: 2px solid #cccccc; 
+  }
+
+nav {
+    margin-right: 180px; 
+    text-align: right; 
+    color: #777777; 
+    padding: 35px;  
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right; 
+    max-width: 660px; 
+}
+
+.nav-bar {
+    padding: 20px; 
+    font-size: 16px; 
+    text-decoration: none; 
+}
+
+span {
+    border-right: 1px solid #cccccc;
+    line-height: 16px; 
+}
+
+.nav-bar:link, .nav-bar:visited {
+    color: #777777;
+}
+
+.nav-bar:hover {
+    color: #4aaaa5
+}
+
+.myname {
+    background-color: #4aaaa5; 
+    color: #ffffff; 
+    padding: 30px 30px 30px 30px; 
+    float: left; 
+    width: 300px; 
+    margin-left: 140px;  
+    font-size: 30px; 
+    border-bottom: 2px solid #cccccc; 
+    text-align: center; 
+   
+}
+
+section {
+    max-width: 960px;  
+    margin-left: 140px; 
+    float: left;
+}
+
+/* About Me*/
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px; 
+    padding: 20px 20px 20px 15px; 
+    border-bottom: 2px solid #cccccc;
+}
+
+.wrapper1 {
+    max-width: 650px;
+    float: left; 
+    border: 1px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    margin: 40px 20px 50px 0px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    color: #4aaaa5; 
+}
+
+p {
+    font-size: 18px; 
+    color: #777777;
+    line-height: 1.6;
+    margin-top: 20px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.profilepic {
+    float: left;
+    width: 20%; 
+    height: 20%; 
+    margin-top: 20px; 
+    margin-right: 20px; 
+}
+
+
+/* Connect with Me */
+.wrapper2 {
+    width: 250px; 
+    height: 150px; 
+    border: 1px solid #cccccc;
+    background-color: #ffffff; 
+    text-align: center; 
+    margin-top: 40px; 
+    float: left; 
+    margin-left: 40px; 
+    padding: 20px; 
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;  
+    color: #4aaaa5; 
+    border-bottom: 2px solid #cccccc; 
+    padding: 10px 10px 10px 10px; 
+    text-align: center; 
+}
+
+.sociallinks {
+    margin: 5px; 
+    padding: 5px; 
+    background-color: #ffffff; 
+}
+
+.social {
+    width: 55px;
+    height: 55px;
+    margin: 2px; 
+    
+}
+
+/* I made this separate class for the Stack Overflow icon because it was larger than the other two */
+.stack {
+    width: 50px; 
+    height: 50px; 
+    margin: 3px;
+    border: 0 none; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+
+#footer {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px; 
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding: 32px 20px 20px 20px; 
+    font-size: 12px; 
+    border-top: 5px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        position: absolute; 
+        right: -10px; 
+    }
+    section {
+        margin: 20px;
+        padding: 20px;  
+    }
+
+    .wrapper1 {
+        max-width: 60%; 
+        margin-top: 10px; 
+        align-content: center; 
+    }
+
+    .profilepic {
+        width: 60%; 
+        height: 20%; 
+        float: none; 
+        padding: 20px; 
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 640px) {
+
+
+}
