@@ -178,3 +178,82 @@ a {
     border-top: 5px solid #4aaaa5;
 }
 
+@media screen and (max-width: 980px) {
+    nav {
+        position: absolute;  
+        right: -180px; 
+
+    }
+    section {
+        margin: 20px;
+        padding: 20px;  
+    }
+
+    .wrapper1 {
+        max-width: 60%; 
+        margin-top: 10px; 
+        align-content: center; 
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: absolute;  
+        right: -200px; 
+
+    }
+    
+    section {
+        margin-bottom: 100px; 
+    }
+
+    .myname {
+        margin-left: 25px; 
+    }
+    .wrapper1 {
+        max-width: 100%; 
+        margin: 25px 0px 25px 0px; 
+        align-content: center;
+        padding: 10px; 
+    }
+
+    .wrapper2 {
+        width: 100%; 
+        margin: 0 auto; 
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    section {
+        margin: 0; 
+        padding: 20px; 
+    }
+    
+    .myname {
+        width: 100%;
+        margin: 0 auto;
+        float: left; 
+    }
+
+    nav {
+        position: static;  
+        margin: 0 auto; 
+        width: 100%; 
+        background-color: #ffffff; 
+        text-align: center; 
+        border-bottom: 1px solid #777777; 
+
+    }
+
+    .wrapper1 {
+        max-width: 60%; 
+    }
+
+    .wrapper2 {
+        width: 60%; 
+        margin-bottom: 100px; 
+    }
+
+}

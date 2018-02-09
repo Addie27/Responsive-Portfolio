@@ -179,11 +179,10 @@ a {
     }
 
     .profilepic {
-        width: 60%; 
-        height: 20%; 
+        width: 50%; 
         float: none; 
-        padding: 20px; 
         margin: 0 auto; 
+        float: left; 
     }
 }
 
@@ -222,7 +221,21 @@ a {
 
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
+    .myname {
+        width: 100%;
+        margin: 0 auto;
+        float: left; 
+    }
 
+    nav {
+        position: static;  
+        margin: 0 auto; 
+        width: 100%; 
+        background-color: #ffffff; 
+        text-align: center; 
+        border-bottom: 1px solid #777777; 
+
+    }
 
 }
