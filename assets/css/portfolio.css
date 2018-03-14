@@ -113,7 +113,9 @@ h2 {
     bottom: 8px;  
     left: 25px; 
 }
- 
+ a.pimageimage {
+     color: #ffffff;
+ }
 
 /* Connect with Me */
 .wrapper2 {
